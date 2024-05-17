@@ -3,7 +3,7 @@ from sqlalchemy.orm import sessionmaker
 from crear_base import Saludo
 from configuracion import engine
 
-Session = sessionmaker(bind=engine)
+Session = sessionmaker(bind=engine) #Permite agregar información, consultar insformación.
 session = Session()
 
 # se crea un objeto de tipo

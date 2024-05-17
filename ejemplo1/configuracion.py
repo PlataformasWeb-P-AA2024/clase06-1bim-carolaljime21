@@ -4,7 +4,7 @@ from sqlalchemy import create_engine
 # para el ejemplo se usa la base de datos
 # sqlite
 
-engine = create_engine('sqlite:///demobase.db', echo=True)
+engine = create_engine('sqlite:///demobase.db', echo=True) #echos=true opcional
 
 # mysql
 # pip install mysql-connector-python

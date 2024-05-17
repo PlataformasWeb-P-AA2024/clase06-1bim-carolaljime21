@@ -9,7 +9,7 @@ from configuracion import engine
 
 
 from sqlalchemy.ext.declarative import declarative_base
-Base = declarative_base()
+Base = declarative_base() #Superclase que necesita todas las clases
 
 
 from sqlalchemy import Column, Integer, String
